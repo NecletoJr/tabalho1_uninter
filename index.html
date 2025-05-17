@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Necleto Pansera Jr</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <h1>Necleto Pansera Jr</h1>
+
+  <p>Meu nome é Necleto Pansera Jr, nasci em 1991 e sou de Erechim, RS. Uma simples pessoa.</p>
+
+  <ul>
+    <li>Assistir séries</li>
+    <li>Jogar</li>
+    <li>Andar de moto</li>
+  </ul>
+
+  
+  <img src="moto.jpg" alt="Moto - hobby" width="300">
+
+  <h2>Países que gostaria de visitar</h2>
+  <table border="1">
+    <tr>
+      <td>Noruega</td>
+      <td><img src="noruega.jpg" alt="Noruega" width="150"></td>
+    </tr>
+    <tr>
+      <td>Irlanda</td>
+      <td><img src="irlanda.jpg" alt="Irlanda" width="150"></td>
+    </tr>
+    <tr>
+      <td>Tailandia</td>
+      <td><img src="tailandia.jpg" alt="Tailandia" width="150"></td>
+    </tr>
+  </table>
+
+  <p><a href="https://www.firstinspires.org/" target="_blank">Visite o site da FIRST</a></p>
+
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <p id="mensagem"></p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").textContent = "Você é único, siga seu caminho com coragem!";
+    }
+  </script>
+
+</body>
+</html>
