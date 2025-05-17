@@ -1,0 +1,100 @@
+/* CSS - Requisitos de estilização:*/
+
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  /* Título centralizado e com cor diferente */
+  h1 {
+    color: #2a7ae2;
+    text-align: center;
+  }
+  
+  /* Parágrafo com fonte maior e texto justificado */
+  p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  /* Lista com espaçamento maior entre itens */
+  ul {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Imagem com bordas arredondadas e tamanho adequado */
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilização da tabela */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table img {
+    border-radius: 8px;
+  }
+  
+  /* Link que muda de cor ao passar o mouse */
+  a {
+    color: #2a7ae2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #d42f7b;
+  }
+  
+  /* Botão com estilo básico */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #2a7ae2;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1c5bbf;
+  }
+  
+  /* Mensagem exibida pelo JavaScript */
+  #mensagem {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+  }
